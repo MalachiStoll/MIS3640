@@ -23,11 +23,3 @@ def my_abs(x):
     print(abs(x))
 
 my_abs(-25)
-
-import math
-
-def quadratic(a,b,c):
-    x_1 = ((-b + math.sqrt(discriminant)) / 2 * a)
-    x_2 = ((-b - math.sqrt(discriminant)) / 2 * a)
-        
-quadratic(10)
